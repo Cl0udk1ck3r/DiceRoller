@@ -1,0 +1,14 @@
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\obj\Debug\netcoreapp3.1\Spring2022SteelwoodProject.csproj.AssemblyReference.cache
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\obj\Debug\netcoreapp3.1\Spring2022SteelwoodProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\obj\Debug\netcoreapp3.1\Spring2022SteelwoodProject.AssemblyInfoInputs.cache
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\obj\Debug\netcoreapp3.1\Spring2022SteelwoodProject.AssemblyInfo.cs
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\obj\Debug\netcoreapp3.1\Spring2022SteelwoodProject.csproj.CoreCompileInputs.cache
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\bin\Debug\netcoreapp3.1\Spring2022SteelwoodProject.exe
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\bin\Debug\netcoreapp3.1\Spring2022SteelwoodProject.deps.json
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\bin\Debug\netcoreapp3.1\Spring2022SteelwoodProject.runtimeconfig.json
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\bin\Debug\netcoreapp3.1\Spring2022SteelwoodProject.runtimeconfig.dev.json
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\bin\Debug\netcoreapp3.1\Spring2022SteelwoodProject.dll
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\bin\Debug\netcoreapp3.1\Spring2022SteelwoodProject.pdb
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\obj\Debug\netcoreapp3.1\Spring2022SteelwoodProject.dll
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\obj\Debug\netcoreapp3.1\Spring2022SteelwoodProject.pdb
+C:\Users\Mars\source\repos\Spring2022SteelwoodProject\obj\Debug\netcoreapp3.1\Spring2022SteelwoodProject.genruntimeconfig.cache

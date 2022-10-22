@@ -1,0 +1,18 @@
+Hi Mars,
+
+First, the code you sent me did not compile.  You had an extra closed curly brace in your Program.cs and did not include an argument for your constructor.  That was easy enough to fix, but please try to make those minor corrections in the future (if your code won't compile for a more complicated reason and you need my help determining the cause, that is fine).
+
+As far as the rival is concerned, it is no extra work.  Just as your indexmon is an instance of the Indexmon class, so is your rival's.  You just need to instantiate a second Indexmon object.
+
+Your constructor does not need to print the information as you are doing right now, and instead that should be delegated to the ToString method.
+
+I am glad you figured out how to use Random, but a couple of points to focus on here.  First, what is the minimum possible roll of RNG.Next(7)?  And RNG.Next(21)?  You have the correct ceilings but not the correct floors.  You can either use the single argument version as you have been, bump the ceilings up one and then subtract 1 from the result, or you can use the two argument version to set a floor and ceiling.  You are also not currently using the Roll6 and Roll20 methods to set the stats (you can do so in the constructor), but are rather calling getters so everything is returning the default values.
+
+My suggestion would be to start with your fixes on the constructor.  The constructor takes one argument, as you already have in place.  What should it be doing with that argument?  Currently, it does nothing with it, and the name attribute remains the default (empty string).  Second, you should be calling your Roll6 and Roll20 methods to set the other stats, adjusting the maximum/current hp attributes using the math provided in the description.  Currently, you do not have separate attributes for current health and max health.  I would also recommend grouping all of your attributes at the top of the code to improve readability, though that is not strictly required.  You also need a couple of boolean attributes to keep track of your in-battle status and if you have won a battle since you last leveled up, as well as a level attribute (probably an int).  The constructor for this class should basically act as a mega-setter, setting all of the values for the various attributes.
+
+Healing has two possible outcomes: you are in battle and so you cannot heal, or you are not in battle and your current health gets set to your max health value.  Does it require any arguments?  What return type should it have?
+
+Leveling also has two possible outcomes, based on the value of a boolean.  It either fails, or changes the values of three attributes based on the instructions in the specification.  It should be structurally similar to healing, but with different attributes changed (and by different amounts).
+
+Battles are the most complex part of the project, so I would recommend getting these other parts fixed up first and then emailing/visiting me again if you need help with that.  Please let me know if and when you have further questions.
+

@@ -1,0 +1,4 @@
+GetPlayerHand
+Work on bets
+	Set Getters and setters for funds
+	

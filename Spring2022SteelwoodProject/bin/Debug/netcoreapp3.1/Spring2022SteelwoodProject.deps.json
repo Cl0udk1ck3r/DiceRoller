@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Spring2022SteelwoodProject/1.0.0": {
+        "runtime": {
+          "Spring2022SteelwoodProject.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Spring2022SteelwoodProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
